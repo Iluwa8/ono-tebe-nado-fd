@@ -435,7 +435,7 @@
   justify-self: start;
   align-items: flex-start;
   margin-left: 50px;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 .footer__menu {
@@ -444,7 +444,7 @@
   justify-content: space-between;
   justify-content: start;
   text-align: center;
-  padding-top: 10px;
+  /* padding-top: 10px; */
   padding-right: 120px;
 }
 
@@ -467,7 +467,7 @@
   width: 240px;
   height: 48px;
   margin-right: 50px;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 .footer__links-to-social-media-container {
