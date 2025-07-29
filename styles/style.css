@@ -410,7 +410,7 @@
 }
 
 .about__information-about-lots-first-paragraph {
-  /* padding-top: 20px; */
+  padding-top: 10px;
   padding-bottom: 19px;
 }
 
@@ -435,7 +435,7 @@
   justify-self: start;
   align-items: flex-start;
   margin-left: 50px;
-  /* padding-top: 24px; */
+  padding-top: 10px;
 }
 
 .footer__menu {
@@ -444,8 +444,8 @@
   justify-content: space-between;
   justify-content: start;
   text-align: center;
-  /* padding-top: 33px; */
-  padding-right: 130px;
+  padding-top: 10px;
+  padding-right: 120px;
 }
 
 .footer__links-list {
@@ -467,7 +467,7 @@
   width: 240px;
   height: 48px;
   margin-right: 50px;
-  /* padding-top: 10px; */
+  padding-top: 10px;
 }
 
 .footer__links-to-social-media-container {
