@@ -168,7 +168,7 @@
   letter-spacing: 30px;
   text-transform: uppercase;
   margin-right: -30px;
-  padding-top: 35px;
+  padding-top: 20px;
 }
 
 .description {
@@ -217,7 +217,7 @@
   height: 51px;
   background-color: none;
   /* padding-left: 107px; */
-  margin-left: 30px;
+  margin-left: 25px;
 }
 
 
@@ -368,7 +368,7 @@
 
 .about__logo-container {
   display: flex;
-  margin-top: 40px;
+  margin-top: 50px;
   margin-left: 47px;
   margin-right: 72px;
   width: 240px;
@@ -406,16 +406,16 @@
   letter-spacing: 0%;
   text-transform: uppercase;
   padding-bottom: 100px;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .about__information-about-lots-first-paragraph {
   padding-top: 20px;
-  padding-bottom: 24px;
+  padding-bottom: 19px;
 }
 
-.about__information-about-lots-first-paragraph {
-  padding-top: 24px;
+.about__information-about-lots-second-paragraph {
+  /* padding-top: 24px; */
   padding-bottom: 13px;
 }
 
@@ -435,7 +435,7 @@
   justify-self: start;
   align-items: flex-start;
   margin-left: 50px;
-  padding-top: 24px;
+  /* padding-top: 24px; */
 }
 
 .footer__menu {
@@ -444,7 +444,7 @@
   justify-content: space-between;
   justify-content: start;
   text-align: center;
-  padding-top: 33px;
+  /* padding-top: 33px; */
   padding-right: 150px;
 }
 
@@ -467,7 +467,7 @@
   width: 240px;
   height: 48px;
   margin-right: 50px;
-  padding-top: 10px;
+  /* padding-top: 10px; */
 }
 
 .footer__links-to-social-media-container {
