@@ -368,7 +368,7 @@
 
 .about__logo-container {
   display: flex;
-  margin-top: 50px;
+  margin-top: 55px;
   margin-left: 47px;
   margin-right: 72px;
   width: 240px;
@@ -410,7 +410,7 @@
 }
 
 .about__information-about-lots-first-paragraph {
-  padding-top: 20px;
+  /* padding-top: 20px; */
   padding-bottom: 19px;
 }
 
@@ -426,7 +426,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr min-content;
-  padding-top: 180px;
+  padding-top: 160px;
   min-height: 180px;
 }
 
@@ -445,7 +445,7 @@
   justify-content: start;
   text-align: center;
   /* padding-top: 33px; */
-  padding-right: 150px;
+  padding-right: 130px;
 }
 
 .footer__links-list {
