@@ -406,7 +406,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr min-content;
-  padding-top: 155px;
+  padding-top: 154.5px;
 }
 
 .footer__address {
@@ -414,6 +414,7 @@
   justify-self: start;
   align-items: flex-start;
   margin-left: 50px;
+  /* text-wrap: balance; */
   /* padding-top: 10px; */
   /* margin-bottom: 20px; */
 }
