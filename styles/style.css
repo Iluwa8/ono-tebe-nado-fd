@@ -12,17 +12,20 @@
 }
 
 .header__menu {
-  padding-top: 133px;
-  padding-right: 36.52px;
+  /* padding-top: 133px; */
+  /* padding-right: 36.52px; */
+  /* padding-right: 50px;
   padding-bottom: 138px;
-  padding-left: 50px;
+  padding-left: 50px; */
+  padding: 133px 40px 138px 50px;
+  text-wrap: nowrap;
 }
 
 .header__links-list {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 33px;
+  gap: 29px;
 }
 
 .header__links-list-item {
@@ -31,6 +34,7 @@
 
 .header__links-list-item_no-bullit {
   list-style: none;
+  list-style-position: outside;
 }
 
 .header__link {
@@ -42,12 +46,12 @@
   text-decoration-line: none;
 }
 
-.header__link 
-.header__link-active {
+.header__link {
   font-family: Raleway sans-serif;
   font-weight: 400px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 21px;
+  letter-spacing: .60px;
   font-style: normal;
   color: black;
 }
@@ -55,8 +59,7 @@
 .header__logo {
     /* padding: 92px 184px 96px 36px; */
     display: block;
-    align-items: end;
-    
+    align-items: end;   
 }
 
 .header__logo-image {
@@ -190,10 +193,10 @@
   font-style: Regular;
   font-size: 22px;
   line-height: 28px;
-  word-spacing: 20px;
+  word-spacing: 19px;
   text-transform: uppercase;
   color: white;
-  /* padding-top: 12px; */
+  padding-top: 10px;
 }
 
 .button-container {
@@ -263,6 +266,18 @@
   display: flex;
   flex-direction: column;
   z-index: 3;
+  text-underline-offset: 2px;
+}
+
+.lot-description-and-story {
+  font-family: Raleway, sans-serif;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 1);
+  z-index: 3;
 }
 
 .lot-short-description {
@@ -277,6 +292,7 @@
   text-decoration-style: solid;
   text-decoration-thickness: 0%;
   color: rgba(255, 255, 255, 1);
+  z-index: 3;
 }
 
 .lot {
@@ -291,6 +307,7 @@
   justify-content: space-between;
   padding: 48px 40px;
   min-height: 100%;
+  z-index: 3;
 }
 
 .film-lot {
@@ -306,19 +323,10 @@
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.lot-description-and-story {
-  font-family: Raleway, sans-serif;
-  font-weight: 400;
-  font-style: Regular;
-  font-size: 20px;
-  line-height: 120%;
-  letter-spacing: 0%;
-  color: rgba(255, 255, 255, 1);
-}
-
 .lots__more-link-container {
-  padding-top: 30px;
+  padding-top: 33.3px;
   padding-left: 40px;
+  text-underline-offset: 3px;
 }
 
 .lots__more-link {
@@ -343,7 +351,7 @@
 
 .about__logo-container {
   display: flex;
-  margin-top: 55px;
+  margin-top: 32.5px;
   margin-left: 47px;
   margin-right: 72px;
   width: 240px;
@@ -366,10 +374,11 @@
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0%;
+  text-wrap: balance;
   margin-top: 133px;
   margin-bottom: 13px;
-  padding-top: 10px;
-  padding-left: 30px;
+  padding-top: 5px;
+  padding-left: 25px;
 }
 
 .about__header {
@@ -381,16 +390,16 @@
   letter-spacing: 0%;
   text-transform: uppercase;
   padding-bottom: 100px;
-  padding-top: 15px;
+  /* padding-top: 15px; */
 }
 
 .about__paragraph-intro {
-  padding-top: 10px;
+  padding-top: 5px;
   padding-bottom: 19px;
 }
 
 .about__paragraph-details {
-  /* padding-top: 24px; */
+  padding-top: 5px;
   padding-bottom: 13px;
 }
 
@@ -401,7 +410,7 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr min-content;
-  padding-top: 160px;
+  padding-top: 155px;
 }
 
 .footer__address {
@@ -410,6 +419,7 @@
   align-items: flex-start;
   margin-left: 50px;
   /* padding-top: 10px; */
+  /* margin-bottom: 20px; */
 }
 
 .footer__menu {
@@ -417,9 +427,9 @@
   flex-direction: column;
   justify-content: space-between;
   justify-content: start;
-  text-align: center;
-  /* padding-top: 10px; */
-  padding-right: 120px;
+  /* text-align: center; */
+  /* padding-bottom: 20px; */
+  padding-right: 115px;
 }
 
 .footer__links-list {
@@ -427,7 +437,7 @@
   font-weight: 400;
   font-style: Regular;
   font-size: 18px;
-  line-height: 20px;
+  line-height: 21px;
   letter-spacing: 0%;
   text-align: center;
 }
@@ -455,20 +465,31 @@
   width: 100%;
 }
 
-.footer__link {
+.footer__link-to-social-media {
   list-style: none;
   width: 48px;
   height: 48px;
 }
 
-.footer__youtube-link {
+/* .footer-image-container {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.youtube-image {
+
+} */
+
+/* 
+.youtube-image {
   background-image: url(../images/yt.svg);
 }
 
-.footer__vk-link {
+.vk-image {
   background-image: url(../images/vk.svg);
 }
 
-.footer__pinterest-link {
+.pinterest-image {
   background-image: url(../images/pinterest.svg);
-}
+} */
