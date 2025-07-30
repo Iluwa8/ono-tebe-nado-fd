@@ -12,11 +12,6 @@
 }
 
 .header__menu {
-  /* padding-top: 133px; */
-  /* padding-right: 36.52px; */
-  /* padding-right: 50px;
-  padding-bottom: 138px;
-  padding-left: 50px; */
   padding: 133px 40px 138px 50px;
   text-wrap: nowrap;
 }
@@ -68,7 +63,7 @@
     width: 148px;
     height: 105px;
     position: fixed right;
-    
+    padding-right: 5px;
 }
 
 .address {
@@ -145,13 +140,14 @@
   line-height: 114.99999999999999%;
   letter-spacing: 30px;
   text-transform: uppercase;
+  padding-top: 4px;
 }
 
 .main-title-segment {
   display: block;
   text-align: center;
-  padding-top: 30px;
-  padding-left: 25px;
+  padding-top: 20px;
+  padding-left: 30px;
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-style: Bold;
@@ -196,7 +192,7 @@
   word-spacing: 19px;
   text-transform: uppercase;
   color: white;
-  padding-top: 10px;
+  padding-top: 13px;
 }
 
 .button-container {
