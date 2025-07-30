@@ -227,7 +227,7 @@
 /*--------------------------------------------------------------*/
 
 .lots {
-  padding: 190px 24px 0 24px;
+  padding: 187px 24px 0 24px;
 }
 
 .lots-header {
@@ -242,7 +242,7 @@
 }
 
 .lots__cards-container {
-  padding-top: 27px;
+  padding-top: 30px;
 }
 
 .lots-list {
@@ -370,7 +370,6 @@
   font-size: 20px;
   line-height: 24px;
   letter-spacing: 0%;
-  text-wrap: balance;
   margin-top: 133px;
   margin-bottom: 13px;
   padding-top: 5px;
@@ -392,6 +391,7 @@
 .about__paragraph-intro {
   padding-top: 5px;
   padding-bottom: 19px;
+  text-wrap: balance;
 }
 
 .about__paragraph-details {
