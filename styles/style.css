@@ -20,11 +20,16 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  gap: 29px;
+  gap: 32px;
+}
+
+.header__links-list-item::marker {
+  padding-left: 3px;
 }
 
 .header__links-list-item {
   list-style: circle;
+  /* letter-spacing: .3px; */
 }
 
 .header__links-list-item_no-bullit {
@@ -35,6 +40,7 @@
 .header__link {
   text-decoration-line: underline;
   text-underline-offset: 3px;
+  padding: 0;
 }
 
 .header__link-active {
@@ -46,7 +52,8 @@
   font-weight: 400px;
   font-size: 20px;
   line-height: 21px;
-  letter-spacing: .60px;
+  letter-spacing: .41px;
+  word-spacing: -1px;
   font-style: normal;
   color: black;
 }
@@ -82,6 +89,8 @@
   justify-self: end;
   align-items: flex-start;
   margin-right: 50px;
+  padding-left: 1px;
+  padding-bottom: 3px;
 }
 
 .address__href {
@@ -174,30 +183,34 @@
 
 .description {
   display: flex;
-  justify-content: space-between;
-  padding: 106px 50px 50px 0;
+  flex-direction: row;
+  /* align-items: flex-start;
+  justify-content: space-between; */
+  margin: 106px 50px 50px 50px;
   z-index: 2;
   width: 1000px;
   /* height: 51px; */
-  top: 550px;
+  /* top: 550px; */
 }
 
 .description-text {
-  padding-left: 50px;
+  /* padding-left: 50px; */
   font-family: Raleway, sans-serif;
   font-weight: 400;
   font-style: Regular;
   font-size: 22px;
   line-height: 28px;
-  word-spacing: 19px;
+  word-spacing: 18.5px;
   text-transform: uppercase;
+  text-wrap: nowrap;
   color: white;
   padding-top: 13px;
 }
 
 .button-container {
   margin: 0 auto;
-  padding-right: 100px;
+  padding-right: 0;
+  margin-left: 107px;
 }
 
 .description-bet-button {
@@ -211,14 +224,12 @@
   text-transform: uppercase;
   background: transparent;
   border-color: currentColor;
-  /* box-shadow: currentColor; */
   color: white;
-  position: absolute;
   width: 256px;
   height: 51px;
   /* background-color: none; */
   /* padding-left: 107px; */
-  margin-left: 25px;
+  /* margin-left: 107px; */
 }
 
 
@@ -227,7 +238,7 @@
 /*--------------------------------------------------------------*/
 
 .lots {
-  padding: 187px 24px 0 24px;
+  padding: 185px 24px 0 24px;
 }
 
 .lots-header {
@@ -342,7 +353,7 @@
 .about {
   display: grid;
   grid-template-columns: 334px auto;
-  padding: 120px 24px 0 24px;
+  padding: 122px 24px 0 24px;
 }
 
 .about__logo-container {
@@ -389,7 +400,7 @@
 }
 
 .about__paragraph-intro {
-  padding-top: 5px;
+  padding-top: 3px;
   padding-bottom: 19px;
   text-wrap: balance;
 }
@@ -406,14 +417,16 @@
 .footer {
   display: grid;
   grid-template-columns: 1fr 1fr min-content;
-  padding-top: 154.5px;
+  padding-top: 155.5px;
+  margin-bottom: 43px;
 }
 
 .footer__address {
   max-width: 264.57px;
   justify-self: start;
   align-items: flex-start;
-  margin-left: 50px;
+  margin-left: 51px;
+  letter-spacing: -.05px;
   /* text-wrap: balance; */
   /* padding-top: 10px; */
   /* margin-bottom: 20px; */
@@ -467,26 +480,3 @@
   width: 48px;
   height: 48px;
 }
-
-/* .footer-image-container {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-}
-
-.youtube-image {
-
-} */
-
-/* 
-.youtube-image {
-  background-image: url(../images/yt.svg);
-}
-
-.vk-image {
-  background-image: url(../images/vk.svg);
-}
-
-.pinterest-image {
-  background-image: url(../images/pinterest.svg);
-} */
